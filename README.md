@@ -8,6 +8,11 @@ When using the `UIView.animate` api, you may find yourself using the `completion
 
 ## How to get it
 
+### Manually
+
+Download `https://github.com/DomainGroupOSS/swift-chainable-animations/blob/master/ChainableAnimations/UIViewAnimationExtensions.swift` and add it to your project. Job done!
+      
+
 ### Carthage
 
 ```
@@ -19,6 +24,10 @@ git "git@github.com:DomainGroupOSS/swift-chainable-animations.git" "0.1.0"
 ```
 pod "SwiftChainableAnimations", "0.1.0" 
 ```
+
+### Swift Package Manager
+
+`//TODO`
 
 ## Usage
 
