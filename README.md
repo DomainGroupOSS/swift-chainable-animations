@@ -16,13 +16,13 @@ Download `https://github.com/DomainGroupOSS/swift-chainable-animations/blob/mast
 ### Carthage
 
 ```
-git "git@github.com:DomainGroupOSS/swift-chainable-animations.git" "0.1.0"    
+git "DomainGroupOSS/swift-chainable-animations" "0.1.1"    
 ```
 
 ### Cocoapods
 
 ```
-pod "SwiftChainableAnimations", "0.1.0" 
+pod "SwiftChainableAnimations", "0.1.1" 
 ```
 
 ### Swift Package Manager
@@ -51,6 +51,8 @@ UIView.animate(withDuration: 0.15, delay: 0.0, options: .curveEaseIn, animations
 
 ### After
 ```swift
+import ChainableAnimations
+
 UIView.prepareAnimation(withDuration: 0.15, options: .curveEaseIn) {
     self.titleImageView.transform = CGAffineTransform(scaleX: 1.2, y: 1.2)
 }.then(withDuration: 0.4, options: .curveEaseOut) {
@@ -69,6 +71,8 @@ UIView.animate(withDuration: stageDuration, delay: 0, options: .curveEaseIn, ani
 
 ### After
 ```swift
+import ChainableAnimations
+
 UIView
     .prepareAnimation(withDuration: stageDuration, delay: 0, options: .curveEaseIn, animations: stageOne)
     .then(withDuration: stageDuration, delay: 0, options: .curveEaseIn, animations: stageTwo)
