@@ -39,7 +39,7 @@ public final class ChainableAnimation {
     }
     
     public func then(
-        withDuration: TimeInterval,
+        withDuration duration: TimeInterval,
         delay: TimeInterval = 0,
         options: UIView.AnimationOptions = [],
         animations: @escaping () -> Void) -> ChainableAnimation
