@@ -1,4 +1,9 @@
 # swift-chainable-animations
+
+## Status
+This framework is no longer being maintained.
+
+## Description
 A μ-framework which makes chaining UIView animations more simple and elegant.
 
 ## Background
@@ -7,6 +12,10 @@ When using the `UIView.animate` api, you may find yourself using the `completion
 ![Pyramid Of Doom](https://upload.wikimedia.org/wikipedia/en/0/04/Pyramid_of_Doom.jpg)
 
 ## How to get it
+
+### Note
+
+It is not recommended to use this framework as it has been archived.
 
 ### Manually
 
@@ -24,10 +33,6 @@ git "DomainGroupOSS/swift-chainable-animations" "0.1.1"
 ```
 pod "SwiftChainableAnimations", "0.1.1" 
 ```
-
-### Swift Package Manager
-
-`//TODO`
 
 ## Usage
 
